@@ -11,7 +11,7 @@ class Dart < Formula
     sha256 "f5c3f7b001a734726140e8941f0768f3365193d27024a762b769d7c03304064f"
   end
 
-  devel do
+  head do
     version "2.6.0-dev.6.0"
     if Hardware::CPU.is_64_bit?
       url "https://storage.googleapis.com/dart-archive/channels/dev/release/2.6.0-dev.6.0/sdk/dartsdk-macos-x64-release.zip"
